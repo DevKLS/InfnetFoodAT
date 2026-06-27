@@ -1,0 +1,68 @@
+const products = [
+  {
+    id: 1,
+    name: "X-Burger",
+    description: "Hambúrguer artesanal com queijo e molho especial.",
+    price: 22.9,
+    category: "Lanches",
+    image: require("../assets/images/lanches.jpg"),
+  },
+  {
+    id: 2,
+    name: "X-Salada",
+    description: "Hambúrguer com queijo, alface, tomate e maionese.",
+    price: 25.9,
+    category: "Lanches",
+    image: require("../assets/images/xsalada.jpg"),
+  },
+  {
+    id: 3,
+    name: "Coca-Cola",
+    description: "Refrigerante gelado lata 350ml.",
+    price: 7.5,
+    category: "Bebidas",
+    image: require("../assets/images/coca.jpg"),
+  },
+  {
+    id: 4,
+    name: "Suco Natural",
+    description: "Suco natural de laranja 500ml.",
+    price: 10.0,
+    category: "Bebidas",
+    image: require("../assets/images/suco.jpg"),
+  },
+  {
+    id: 5,
+    name: "Brownie",
+    description: "Brownie de chocolate com calda.",
+    price: 12.9,
+    category: "Sobremesas",
+    image: require("../assets/images/brownie.jpg"),
+  },
+  {
+    id: 6,
+    name: "Pizza Calabresa",
+    description: "Pizza de calabresa com cebola e mussarela.",
+    price: 39.9,
+    category: "Pizzas",
+    image: require("../assets/images/pizza-calabresa.jpg"),
+  },
+  {
+    id: 7,
+    name: "Espaguete à Bolonhesa",
+    description: "Massa italiana com molho bolonhesa.",
+    price: 32.9,
+    category: "Massas",
+    image: require("../assets/images/espaguete.jpg"),
+  },
+  {
+    id: 8,
+    name: "Combo Sushi",
+    description: "Combo japonês com 16 peças variadas.",
+    price: 44.9,
+    category: "Japonesa",
+    image: require("../assets/images/sushi.jpg"),
+  },
+];
+
+export default products;
