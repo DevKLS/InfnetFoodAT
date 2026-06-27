@@ -86,7 +86,7 @@ export default function CheckoutScreen({ navigation }) {
     setPedidoConfirmado(true);
 
     Alert.alert(
-      "Pedido Confirmado 🎉",
+      "Pedido Confirmado",
       "Seu pedido foi enviado para preparação.",
       [
         {
@@ -145,7 +145,7 @@ export default function CheckoutScreen({ navigation }) {
         </View>
 
         <View style={styles.card}>
-          <Text style={styles.secaoTitulo}>💳 Forma de Pagamento</Text>
+          <Text style={styles.secaoTitulo}>Forma de Pagamento</Text>
 
           {["Cartão de Crédito", "Pix", "Dinheiro"].map((metodo) => (
             <TouchableOpacity

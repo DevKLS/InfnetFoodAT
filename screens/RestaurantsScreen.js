@@ -199,7 +199,7 @@ function RestaurantCard({ restaurant, onPress }) {
 
         <View style={styles.ratingBadge}>
           <Text style={styles.ratingText}>
-            ⭐ {restaurant.rating}
+             {restaurant.rating}
           </Text>
         </View>
       </View>
